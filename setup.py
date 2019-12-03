@@ -18,15 +18,15 @@ for r in requires:
     else:
         install_requires.append(r)
 
-setup(name='tensorkube',
+setup(name='kubezeug',
       version='0.0.1',
-      description='Tensorflow/Kubernetes integration via dask-kubernetes',
+      description='Utilities for quick and easy distributed computing via dask-kubernetes, with a focus on ML applications.',
       maintainer='Brian Groenke',
       maintainer_email='brian.groenke@colorado.edu',
       license='MIT',
       install_requires=install_requires,
       extras_require=extras_require,
-      packages=['tensorkube'],
+      packages=['kubezeug'],
       long_description=(open('README.md').read() if os.path.exists('README.md')
                         else ''),
       zip_safe=False)
