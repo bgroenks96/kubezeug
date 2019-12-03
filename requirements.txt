@@ -1,5 +1,4 @@
 dask
 dask-kubernetes
 distributed
-tensorflow
 kubernetes
